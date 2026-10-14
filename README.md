@@ -22,6 +22,8 @@ git push origin :test
 git stash
 git switch dev
 git stash pop
+git branch -d  dev
+git push origin :dev
 git tag -a v1.7 -m "version 1.7"
 git push origin v1.7
 git tag --list
